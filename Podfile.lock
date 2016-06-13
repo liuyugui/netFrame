@@ -1,0 +1,38 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - MBProgressHUD (0.9.2)
+
+DEPENDENCIES:
+  - AFNetworking (from `https://liuyugui@github.com/liuyugui/AFNetworking.git`)
+  - MBProgressHUD (<= 0.9.2)
+
+EXTERNAL SOURCES:
+  AFNetworking:
+    :git: https://liuyugui@github.com/liuyugui/AFNetworking.git
+
+CHECKOUT OPTIONS:
+  AFNetworking:
+    :commit: bc24c5e6d5d70788d1b1e5a013f0e5615747122f
+    :git: https://liuyugui@github.com/liuyugui/AFNetworking.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+
+PODFILE CHECKSUM: 4cc1ef66f2c119ac4a08f1053cee9d1bccd4802e
+
+COCOAPODS: 1.0.0
